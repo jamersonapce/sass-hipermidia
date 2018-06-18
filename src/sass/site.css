@@ -1,3 +1,7 @@
+.video-section button {
+  -webkit-box-shadow: 0.2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+  box-shadow: 0.2px 6.65px 0.35px rgba(0, 0, 0, 0.3); }
+
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 html {
   line-height: 1.15;
@@ -7434,11 +7438,11 @@ header .container {
 
 .video-section h1, .video-section h3 {
   text-align: center;
-  color: #fff; }
+  color: #FFF; }
 
 .video-section h1 {
   font-size: 7em;
-  font-family: 'Buenard', serif;
+  font-family: "Buenard";
   font-weight: bold;
   text-transform: uppercase;
   text-shadow: 1px 1px 1px #000;
@@ -7447,13 +7451,31 @@ header .container {
 
 .video-section h3 {
   font-size: 25px;
+  font-family: inherit;
   font-weight: lighter; }
 
 .video-section .buttonBar {
   display: none; }
 
 .player {
-  font-size: 1px; }
+  font-size: 1px;
+  font-family: serif;
+  font-weight: 0.1; }
+
+.video-section form {
+  margin: 1em auto; }
+
+.video-section button {
+  margin: 1em auto;
+  background: #8c322f;
+  border: 0;
+  padding: .6em;
+  color: #FFF;
+  font-size: 1.2em;
+  font-family: inherit;
+  font-weight: bold;
+  -webkit-border-radius: 50px;
+  border-radius: 50px; }
 
 #nodejs .btn-outline {
   color: #051B38;

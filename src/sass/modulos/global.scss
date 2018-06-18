@@ -1,6 +1,6 @@
 
 .menu {
-    background-color: #051b38;
+    background-color: $cor-base;
 }
 section p {
     text-align: justify;
@@ -12,11 +12,11 @@ h2 {
 }
 
 .referencia a{
-    color: #83ffe6;
+    color: $cor-referencia;
 }
 
 a{
-    color: #0056b3;
+    color: $cor-link;
 }
 
 img{
