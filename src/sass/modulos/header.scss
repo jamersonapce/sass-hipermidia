@@ -1,0 +1,33 @@
+header {
+  background-color: $cor-base;
+}
+
+header .container {
+  position: relative;
+}
+
+.menu-opcoes {
+  position: absolute;
+  right: 0;
+  top: .5em;
+  font-size: 1.2em;
+  font-weight: lighter;
+
+  ul {
+    padding-left: 0;
+  }
+
+  li {
+    display: inline-block;
+    width: 5em;
+  }
+
+  a {
+    color: $cor-branca;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
