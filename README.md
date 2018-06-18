@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/jamersonapce/gulp-hipermidia.svg?branch=master)](https://travis-ci.org/jamersonapce/gulp-hipermidia)
+[![Build Status](https://travis-ci.org/jamersonapce/sass-hipermidia.svg?branch=master)](https://travis-ci.org/jamersonapce/sass-hipermidia)
 
-# gulp-hipermidia
-automação de tarefas com gulp
+# sass-hipermidia
+Pré-processador css - Sass
