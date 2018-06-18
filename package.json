@@ -1,0 +1,35 @@
+{
+  "name": "gulp-hipermidia",
+  "version": "1.0.0",
+  "description": "automação de tarefas com gulp",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamersonapce/gulp-hipermidia.git"
+  },
+  "author": "Jamerson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamersonapce/gulp-hipermidia/issues"
+  },
+  "homepage": "https://github.com/jamersonapce/gulp-hipermidia#readme",
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-csslint": "^1.0.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-jshint": "^2.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-zip": "^4.1.0",
+    "jshint-stylish": "^2.2.1"
+  }
+}

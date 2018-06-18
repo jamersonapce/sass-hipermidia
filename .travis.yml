@@ -1,0 +1,23 @@
+language: node_js
+node_js:
+  - "6.14.1"
+
+branches:
+  only:
+    - master
+
+before_install:
+  - npm install bower -g
+  - npm install gulp -g
+
+script:
+  - npm install
+
+cache:
+  directories:
+  - bower_components
+  - node_modules
+
+notifications:
+  email:
+    - jamerson.silva@acad.ifma.edu.br
