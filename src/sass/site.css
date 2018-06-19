@@ -7417,6 +7417,15 @@ a {
 img {
   padding-bottom: 2px; }
 
+.item-section {
+  right: 0;
+  margin: 0 0 1em 0; }
+
+.destaque {
+  width: 48%;
+  display: inline-block;
+  vertical-align: top; }
+
 header {
   background-color: #051b38; }
 
@@ -7485,15 +7494,6 @@ header .container {
   font-weight: bold;
   -webkit-border-radius: 50px;
   border-radius: 50px; }
-
-.item-section {
-  right: 0;
-  margin: 0 0 1em 0; }
-
-.destaque {
-  width: 48%;
-  display: inline-block;
-  vertical-align: top; }
 
 .plano {
   background: #FFF;
