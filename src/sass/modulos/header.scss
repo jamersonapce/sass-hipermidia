@@ -1,5 +1,5 @@
 header {
-  background-color: $cor-base;
+  @extend %background-color-base;
 }
 
 header .container {
@@ -23,7 +23,7 @@ header .container {
   }
 
   a {
-    color: $cor-branca;
+    @extend %cor-branca;
     text-decoration: none;
 
     &:hover {

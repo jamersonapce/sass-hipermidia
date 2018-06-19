@@ -2,6 +2,12 @@
   -webkit-box-shadow: 0.2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
   box-shadow: 0.2px 6.65px 0.35px rgba(0, 0, 0, 0.3); }
 
+.menu, header, #github, footer {
+  background-color: #051b38; }
+
+.menu-opcoes a, .video-section h1, .video-section h3, .video-section button, #github, footer {
+  color: #FFF; }
+
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 html {
   line-height: 1.15;
@@ -7391,9 +7397,6 @@ a.text-dark:focus, a.text-dark:hover {
 body {
   font-family: "Roboto", sans-serif; }
 
-.menu {
-  background-color: #051b38; }
-
 section p {
   text-align: justify; }
 
@@ -7426,9 +7429,6 @@ img {
   display: inline-block;
   vertical-align: top; }
 
-header {
-  background-color: #051b38; }
-
 header .container {
   position: relative; }
 
@@ -7444,7 +7444,6 @@ header .container {
     display: inline-block;
     width: 5em; }
   .menu-opcoes a {
-    color: #FFF;
     text-decoration: none; }
     .menu-opcoes a:hover {
       text-decoration: underline; }
@@ -7455,8 +7454,7 @@ header .container {
   min-height: 600px; }
 
 .video-section h1, .video-section h3 {
-  text-align: center;
-  color: #FFF; }
+  text-align: center; }
 
 .video-section h1 {
   font-size: 7em;
@@ -7488,7 +7486,6 @@ header .container {
   background: #8c322f;
   border: 0;
   padding: .6em;
-  color: #FFF;
   font-size: 1.2em;
   font-family: inherit;
   font-weight: bold;
@@ -7505,24 +7502,17 @@ header .container {
 .plano:hover {
   background: #dedede; }
 
-#github {
-  background-color: #051b38;
-  color: #fafafa; }
-
 #nodejs .btn-outline {
   color: #051b38;
   border: solid 2px #051b38; }
 
 footer {
-  background-color: #051B38;
-  color: #fff;
   padding: 1%;
   font-size: 1.5em; }
 
 footer {
   -webkit-background-size: cover;
-  background-size: cover;
-  color: #fff; }
+  background-size: cover; }
 
 footer h2 {
   margin-top: 7%; }

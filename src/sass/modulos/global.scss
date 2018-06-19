@@ -3,7 +3,7 @@ body {
 }
 
 .menu {
-    background-color: $cor-base;
+    @extend %background-color-base;
 }
 section p {
     text-align: justify;

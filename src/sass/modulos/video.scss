@@ -5,7 +5,7 @@
 }
 .video-section h1, .video-section h3{
     text-align:center;
-    color: $cor-branca;
+    @extend %cor-branca;
 }
 
 .video-section h1{
@@ -34,7 +34,7 @@
     background: $cor-botao;
     border: 0;
     padding: .6em;
-    color: $cor-branca;
+    @extend %cor-branca;
     @include fonte-padronizada(1.2em,inherit,bold);
     @include borda-arredondada(50px);
     @extend %sobra-padronizada;

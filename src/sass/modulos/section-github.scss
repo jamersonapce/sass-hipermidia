@@ -1,4 +1,4 @@
-#github {
-    background-color: $cor-base;
-    color: #fafafa;
+#github{
+    @extend %background-color-base;
+    @extend %cor-branca;
 }
