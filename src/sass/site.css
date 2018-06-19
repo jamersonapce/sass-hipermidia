@@ -7388,16 +7388,25 @@ a.text-dark:focus, a.text-dark:hover {
   .table-bordered td, .table-bordered th {
     border: 1px solid #ddd !important; } }
 /*# sourceMappingURL=bootstrap.min.css.map */
+body {
+  font-family: "Roboto", sans-serif; }
+
 .menu {
   background-color: #051b38; }
 
 section p {
   text-align: justify; }
 
-h2 {
-  font-size: 4rem;
-  text-transform: uppercase;
-  letter-spacing: 0.7rem; }
+#git,
+#github,
+#nodejs {
+  padding: 3em 0 6em 0; }
+
+.titulo-secao {
+  text-decoration: underline;
+  font-size: 2em;
+  text-align: center;
+  padding: 0 0 1.5em 0; }
 
 .referencia a {
   color: #83ffe6; }
@@ -7477,36 +7486,32 @@ header .container {
   -webkit-border-radius: 50px;
   border-radius: 50px; }
 
-#nodejs .btn-outline {
-  color: #051B38;
-  border: solid 2px #051B38; }
+.item-section {
+  right: 0;
+  margin: 0 0 1em 0; }
 
-#github, #git, #nodejs {
-  font-size: 1.2em;
-  padding: 1%;
-  padding-bottom: 5%; }
+.destaque {
+  width: 48%;
+  display: inline-block;
+  vertical-align: top; }
+
+.plano {
+  background: #FFF;
+  width: 18em;
+  display: inline-block;
+  margin: 1em 0 0 1.4em;
+  padding-bottom: 2em; }
+
+.plano:hover {
+  background: #dedede; }
 
 #github {
-  background-color: #051B38;
+  background-color: #051b38;
   color: #fafafa; }
 
-#github h1 {
-  padding-top: 1%;
-  font-size: 3em;
-  color: #fff; }
-
-#git h1, #nodejs h1 {
-  padding-top: 1%;
-  font-size: 3em;
-  color: #051B38;
-  padding-bottom: 2%; }
-
-#git .item-section {
-  right: 0;
-  margin: 0 0 15px; }
-
-.item-section {
-  margin-bottom: 4px; }
+#nodejs .btn-outline {
+  color: #051b38;
+  border: solid 2px #051b38; }
 
 footer {
   background-color: #051B38;

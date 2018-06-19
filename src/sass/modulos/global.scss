@@ -1,3 +1,6 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
 
 .menu {
     background-color: $cor-base;
@@ -5,10 +8,18 @@
 section p {
     text-align: justify;
 }
-h2 {
-    font-size: 4rem;
-    text-transform: uppercase;
-    letter-spacing: 0.7rem;
+
+#git,
+#github,
+#nodejs {
+    padding: 3em 0 6em 0;
+}
+
+.titulo-secao {
+    text-decoration: underline;
+    font-size: 2em;
+    text-align: center;
+    padding: 0 0 1.5em 0;
 }
 
 .referencia a{
