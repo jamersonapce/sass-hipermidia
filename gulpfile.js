@@ -11,6 +11,7 @@ const jshint = require('gulp-jshint');
 const jshintStylish = require('jshint-stylish');
 const csslint = require('gulp-csslint');
 const zip = require('gulp-zip');
+const sass = require('gulp-sass');
 
 
 gulp.task('copy', ['clean'], function() {
@@ -91,4 +92,10 @@ gulp.task('zip', function(){
     gulp.src('dist/**/*')
         .pipe(zip('projeto.zip'))
         .pipe(gulp.dest('dist'))
+});
+
+gulp.task('sass', function(){
+   return gulp.src('./src/sass/site.scss')
+       .pipe(sass(outputStyle, 'expanded').on('error', sass.logError))
+        .pipe(gulp.dest('./css'))
 });
