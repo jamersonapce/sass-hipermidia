@@ -95,7 +95,7 @@ gulp.task('zip', function(){
 });
 
 gulp.task('sass', function(){
-   return gulp.src('./src/sass/site.scss')
-       .pipe(sass(outputStyle, 'expanded').on('error', sass.logError))
-        .pipe(gulp.dest('./css'))
+   return gulp.src('./src/sass/**/site.scss')
+       .pipe(sass()).on('error', sass.logError)
+       .pipe(gulp.dest('./src/css'))
 });

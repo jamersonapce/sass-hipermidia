@@ -31,6 +31,8 @@
     "gulp-sass": "^4.0.1",
     "gulp-uglify": "^3.0.0",
     "gulp-zip": "^4.1.0",
+    "jshint": "^2.9.5",
     "jshint-stylish": "^2.2.1"
-  }
+  },
+  "dependencies": {}
 }
