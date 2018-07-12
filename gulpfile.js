@@ -12,7 +12,17 @@ const jshintStylish = require('jshint-stylish');
 const csslint = require('gulp-csslint');
 const zip = require('gulp-zip');
 const sass = require('gulp-sass');
+const spritesmith = require('spritesmith');
 
+gulp.task('sprite', function () {
+    var spriteData = gulp.src('img/*.png').pipe(spritesmith({
+        imgName: 'sprite.png',
+        cssName: 'sprite.css'
+    }));
+    return spriteData.pipe(gulp.dest('dist/img/sprite/'));
+    // spriteData.img.pipe(gulp.dest('dist/img/sprite/'));
+    // spriteData.css.pipe(gulp.dest('./'));
+});
 
 gulp.task('copy', ['clean'], function() {
 
